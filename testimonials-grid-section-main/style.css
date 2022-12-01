@@ -1,0 +1,289 @@
+body{
+     width: 100%;
+     height: 100%;
+     box-sizing: border-box;
+     margin-left: 6%;
+     background-color: #d3d3d3;
+     
+     
+    
+}
+
+main{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 2px solid yellow;
+
+   
+    
+}
+
+.div-1{
+
+}
+ .section-1{
+   margin-top: 5%;
+   margin-left: 0;
+   background-color: rgb(75, 15, 87);
+   width: 35%;
+   padding:3%;
+   border-radius: 10px 10px 10px 10px;
+   display: inline-block;
+   float: left;
+   border: 2px solid red;
+ 
+ }
+ .img-daniel{
+  border-radius: 30px 30px 30px 30px;
+  display: block;
+  float: left;
+  
+ }
+
+ .name-daniel{
+   display: inline-block;
+   clear: both;  
+   margin-left: 8px;
+   font-family:Arial;
+   color: rgb(221, 210, 210);
+   font-size: 15px;
+    
+ }
+
+.botoom-daniel{
+    display:block;
+    font-size: 9px;
+    font-family:Arial;
+    color: rgb(221, 210, 210);
+   
+}
+
+.title-daniel{
+   color: white;
+   font:normal;
+   font-size: 19px;
+ 
+}
+
+.subtitle-daniel{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.726);
+}
+
+
+
+
+.div-2{
+ 
+}
+
+.section-2{
+   
+   background-color: rgb(97, 94, 146);
+   width: 18%;
+   padding:3%;
+   display:inline-block;
+   border-radius: 10px 10px 10px 10px;
+   margin-top: 5%;
+   margin-left: 22px ;
+   display: inline-block;
+   float: left;
+   border: 2px solid red;
+}
+
+.img-jho {
+    border-radius: 30px 30px 30px 30px  ;
+    display: block;
+    float: left;
+}
+
+.name-jho{
+   display:block;
+   float: left;
+   margin-left: 8px;
+   font-family:Arial;
+   color: rgb(221, 210, 210);
+   font-size: 15px;
+}
+
+.bottom-jho{
+    display:block;
+    font-size: 9px;
+    font-family: Arial;
+    color: rgb(221, 210, 210);
+
+}
+
+.title-jho{
+    color: white;
+    font:normal;
+    font-size: 18px;
+    display: inline-block;
+    
+
+}
+
+.subtitle-jho{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.726);
+   
+}
+
+
+.div-3{
+  
+}
+
+.section-3{
+   background-color: rgb(223, 222, 230);
+   width: 13%;
+   padding:4%;
+   border-radius: 10px 10px 10px 10px;
+   margin-top: 5%;
+   margin-left: 22px ;
+   display:inline-block;
+   float: left;
+   border: 2px solid red;
+   
+
+   
+   
+}
+
+.img-kira{
+    border-radius: 30px 30px 30px 30px  ;
+    display: block;
+    float: left;
+
+}
+
+.name-kira{
+   display: block;
+   float:left;
+   margin-left: 8px;
+   font-family:Arial;
+   color: rgb(15, 15, 15);
+   font-size: 15px;
+}
+
+.bottom-kira{
+    display: block;
+    font-size: 9px;
+    font-family: Arial;
+    color: black;
+}
+
+.title-kira{
+    color: rgb(15, 15, 15);
+    font:normal;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.subtitle-kira{
+    font-size: 14px;
+    color:black;
+}
+
+.div-4{
+  
+    
+}
+.section-4{
+   background-color: rgb(223, 222, 230);
+   width: 12%;
+   padding:3%;
+   border-radius: 12px 12px 12px 12px;
+   border: 3px solid red; 
+   display:inline-block;
+   float: left;
+}
+.img-jean{
+    border-radius: 30px 30px 30px 30px  ;
+    display:inline-block;
+    float: left;
+}
+
+.name-jean{
+    display: block;
+   float:left;
+   margin-left: 8px;
+   font-family:Arial;
+   color: rgb(15, 15, 15);
+   font-size: 15px;
+}
+
+.bottom-jean{
+    display: block;
+    font-size: 9px;
+    font-family: Arial;
+    color: black;
+}
+
+.title-jean{
+    color: rgb(15, 15, 15);
+    font:normal;
+    font-size: 18px;
+    display: inline-block;
+
+}
+
+.subtitle-jean{
+    font-size: 14px;
+    color:black;
+}
+
+.div-5{
+    
+
+}
+
+.section-5{
+    background-color: rgb(223, 222, 230);
+    width: 40%;
+    padding:3%;
+    border-radius: 12px 12px 12px 12px;
+    border: 3px solid red; 
+    display:inline-block;
+    float: left;
+    margin-left: 2%;
+
+}
+
+.img-patrick{
+    border-radius: 30px 30px 30px 30px  ;
+    display:inline-block;
+    float: left;
+}
+
+.name-patrick{
+    display: block;
+    float:left;
+    margin-left: 8px;
+    font-family:Arial;
+    color: rgb(15, 15, 15);
+    font-size: 15px;
+}
+
+.bottom-patrick{
+    display: block;
+    font-size: 9px;
+    font-family: Arial;
+    color: black;
+}
+
+.title-patrick{
+    color: rgb(15, 15, 15);
+    font:normal;
+    font-size: 18px;
+    display: inline-block;
+
+}
+
+.subtitle-patrick{
+    font-size: 14px;
+    color:black;
+}
+
+
