@@ -2,7 +2,7 @@ body{
      width: 100%;
      height: 100%;
      box-sizing: border-box;
-     margin-left: 6%;
+     /* margin-left: 6%; */
      background-color: #d3d3d3;
      
      
@@ -14,6 +14,9 @@ main{
     height: 80%;
     margin: auto;
     border: 2px solid yellow;
+    display: inline-block;
+    margin-left: 10%;
+    
 
    
     
@@ -32,6 +35,8 @@ main{
    display: inline-block;
    float: left;
    border: 2px solid red;
+   max-width: 550px;
+   max-height: 400px;
  
  }
  .img-daniel{
@@ -63,31 +68,34 @@ main{
    color: white;
    font:normal;
    font-size: 19px;
+   text-align: justify;
  
 }
 
 .subtitle-daniel{
     font-size: 14px;
     color:rgba(255, 255, 255, 0.726);
+    text-align: justify;
 }
 
 
 
 
 .div-2{
+    
  
 }
 
 .section-2{
    
    background-color: rgb(97, 94, 146);
-   width: 18%;
+   max-width: 220px;
+   max-height: 400px;
    padding:3%;
    display:inline-block;
    border-radius: 10px 10px 10px 10px;
    margin-top: 5%;
    margin-left: 22px ;
-   display: inline-block;
    float: left;
    border: 2px solid red;
 }
@@ -145,6 +153,7 @@ main{
    display:inline-block;
    float: left;
    border: 2px solid red;
+   height: 37em;
    
 
    
@@ -159,7 +168,7 @@ main{
 }
 
 .name-kira{
-   display: block;
+   display: inline-flex;
    float:left;
    margin-left: 8px;
    font-family:Arial;
@@ -168,7 +177,7 @@ main{
 }
 
 .bottom-kira{
-    display: block;
+    display: inline-flex;
     font-size: 9px;
     font-family: Arial;
     color: black;
@@ -178,7 +187,7 @@ main{
     color: rgb(15, 15, 15);
     font:normal;
     font-size: 18px;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .subtitle-kira{
@@ -193,11 +202,17 @@ main{
 .section-4{
    background-color: rgb(223, 222, 230);
    width: 12%;
+   height: 500px;
    padding:3%;
    border-radius: 12px 12px 12px 12px;
    border: 3px solid red; 
    display:inline-block;
    float: left;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-271%,-55%);
+
 }
 .img-jean{
     border-radius: 30px 30px 30px 30px  ;
@@ -248,6 +263,10 @@ main{
     display:inline-block;
     float: left;
     margin-left: 2%;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-107%,-99%);
 
 }
 
