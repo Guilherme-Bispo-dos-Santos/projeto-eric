@@ -2,23 +2,19 @@ body{
      width: 100%;
      height: 100%;
      box-sizing: border-box;
-     /* margin-left: 6%; */
      background-color: #d3d3d3;
-     
+     margin-left: 120px;
      
     
 }
 
-main{
-    width: 80%;
-    height: 80%;
-    margin: auto;
+.main-principal{
+    height: 1000px;
+    width: 1200px;
     border: 2px solid yellow;
-    display: inline-block;
-    margin-left: 10%;
+    margin-top: 50%;
     
-
-   
+    
     
 }
 
@@ -31,12 +27,12 @@ main{
    background-color: rgb(75, 15, 87);
    width: 35%;
    padding:3%;
+   height: 300px;
    border-radius: 10px 10px 10px 10px;
-   display: inline-block;
-   float: left;
-   border: 2px solid red;
-   max-width: 550px;
-   max-height: 400px;
+   position: relative;
+   left: 22px;
+   
+ 
  
  }
  .img-daniel{
@@ -87,19 +83,16 @@ main{
 }
 
 .section-2{
-   
+   height: 300px;
    background-color: rgb(97, 94, 146);
-   max-width: 220px;
-   max-height: 400px;
    padding:3%;
-   display:inline-block;
    border-radius: 10px 10px 10px 10px;
-   margin-top: 5%;
-   margin-left: 22px ;
-   float: left;
-   border: 2px solid red;
+   position: relative;
+   left: 535px;
+   bottom: 370px;
+   width: 22%;
+   
 }
-
 .img-jho {
     border-radius: 30px 30px 30px 30px  ;
     display: block;
@@ -148,15 +141,11 @@ main{
    width: 13%;
    padding:4%;
    border-radius: 10px 10px 10px 10px;
-   margin-top: 5%;
-   margin-left: 22px ;
-   display:inline-block;
-   float: left;
-   border: 2px solid red;
-   height: 37em;
-   
+   position: relative;   
+   left: 900px;
+   bottom: 740px;
+   height: 800px;
 
-   
    
 }
 
@@ -205,13 +194,10 @@ main{
    height: 500px;
    padding:3%;
    border-radius: 12px 12px 12px 12px;
-   border: 3px solid red; 
-   display:inline-block;
-   float: left;
    position: relative;
-   top: 50%;
-   left: 50%;
-   transform: translate(-271%,-55%);
+   bottom: 1260px;
+   left: 25px;
+   height: 450px;
 
 }
 .img-jean{
@@ -256,18 +242,13 @@ main{
 
 .section-5{
     background-color: rgb(223, 222, 230);
-    width: 40%;
+    width: 45%;
     padding:3%;
     border-radius: 12px 12px 12px 12px;
-    border: 3px solid red; 
-    display:inline-block;
-    float: left;
-    margin-left: 2%;
     position: relative;
-   top: 50%;
-   left: 50%;
-   transform: translate(-107%,-99%);
-
+    bottom: 1780px;
+    left: 270px;
+    height: 448px;
 }
 
 .img-patrick{
